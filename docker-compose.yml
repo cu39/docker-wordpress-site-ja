@@ -30,6 +30,7 @@ services:
     volumes:
       - ./uploads:/var/www/html/wp-content/uploads
       - ./plugins:/var/www/html/wp-content/plugins
+      - ./themes/twentytwentyone:/var/www/html/wp-content/themes/twentytwentyone
 
 volumes:
   wp_db_volume:
